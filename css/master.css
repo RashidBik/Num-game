@@ -1,0 +1,147 @@
+body{
+  background-color: black;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0;
+}
+header{
+  box-sizing: border-box;
+  background-image: url("../photos/grayblock.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 72px;
+  background-color: #000;
+  opacity: 80%;
+  padding:auto 0 auto 0;
+}
+header#level2{
+  background-image: url("../photos/rock.jpg");
+}
+ul li {
+  display: inline;
+  margin:20px 10px 20px 10px;
+}
+ul li a img{
+  margin-top: 6px;
+  border-radius: 50%;
+  border:4px solid green;
+
+}
+h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: red;
+  opacity:50%;
+}
+h1#level2{
+  background-color:green;
+}
+main{
+  background-color: #000;
+  /* opacity: 20%; */
+  background-image: url("../photos/drop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  width: 100%;
+  height:64vh;
+}
+main#level2{
+  background-color: #000;
+  /* opacity: 20%; */
+  background-image: url("../photos/irina.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  width: 100%;
+  height:50vh;
+
+}
+div#put{
+  box-sizing: border-box;
+  text-align: left;
+  background:green;
+  opacity: 50%!important;
+  width:88vw;
+  height:130px;
+  border:4px solid white;
+  border-radius: 10px;
+  float:left;
+  margin: 40px 10px 0 50px;
+  padding: 12px;
+}
+div#put span{
+  opacity: 100%!important;
+  color:black;
+  }
+div#put:hover{
+  border:4px solid red;
+}
+div#put2{
+  box-sizing: border-box;
+  text-align: left;
+  opacity: 50%!important;
+  background:red;
+  width:90vw;
+  height:70px;
+  border:4px solid white;
+  border-radius: 10px;
+  float:left;
+  margin-top: 20px;
+  padding: 12px;
+  margin-left: 50px;
+  margin-right: auto;
+}
+div#put2:hover{
+  border:4px solid green;
+}
+div#put2 span{
+  font-size: 30px;
+  padding: 3px;
+  margin:3px;
+  border-radius: 3px;
+  opacity: 100%!important;
+}
+span{
+  padding:0 40px 0 40px;
+  font-size: 78px;
+  font-weight: bold;
+  background-color: #111;
+  border-radius: 10px;
+  margin: 0;
+}
+span.draged{
+  font-size: 50px;
+}
+footer{
+  background-image: url("../photos/grayblock.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000;
+  opacity: 50%;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  bottom: 0;
+
+}
+footer#level2{
+  background-image: url("../photos/rock.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000;
+  opacity: 50%;
+  text-align: center;
+  width: 100%;
+  height: 190px;
+  bottom: 0;
+}
