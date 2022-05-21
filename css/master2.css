@@ -10,7 +10,7 @@ header{
   box-sizing: border-box;
   display: flex;
   overflow:hidden;
-  background-image: url("../photos/grayblock.jpg");
+  background-image: url("../photos/rock.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +20,6 @@ header{
   opacity: 80%;
   padding:0;
 }
-
 ul li {
   display: inline;
   margin-left:5px;
@@ -35,46 +34,49 @@ h1{
   color: #fff;
   font-weight: bold;
   font-size: 40px;
-  background-color: red;
+  background-color:green;
   opacity:50%;
 }
-main{
+
+main#level2{
   background-color: #000;
   /* opacity: 20%; */
-  background-image: url("../photos/drop.jpg");
+  background-image: url("../photos/irina.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   border-bottom: 2px solid gray;
   width: 100%;
-  height:64vh;
+  height:50vh;
+
 }
 
-div#put{
+div#put2{
   box-sizing: border-box;
   text-align: left;
-  background:green;
   opacity: 50%!important;
-  width:88vw;
-  height:130px;
+  background:red;
+  width:90vw;
+  height:70px;
   border:4px solid white;
   border-radius: 10px;
-  /* float:left; */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
+  float:left;
+  margin-top: 20px;
   padding: 12px;
-  /* position:fixed; */
+  margin-left: 50px;
+  margin-right: auto;
 }
-div#put span{
+div#put2:hover{
+  border:4px solid green;
+}
+div#put2 span{
+  font-size: 30px;
+  padding: 3px;
+  margin:3px;
+  border-radius: 3px;
   opacity: 100%!important;
-  color:black;
-  }
-div#put:hover{
-  border:4px solid red;
 }
-
 span{
   padding:0 40px 0 40px;
   font-size: 78px;
@@ -86,8 +88,9 @@ span{
 span.draged{
   font-size: 50px;
 }
-footer{
-  background-image: url("../photos/grayblock.jpg");
+
+footer#level2{
+  background-image: url("../photos/rock.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -95,18 +98,10 @@ footer{
   opacity: 50%;
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 190px;
   bottom: 0;
-
 }
 
-
-main#index{
- background-color: #111;
- background-image:none;
- font-size: 40px;
- border-bottom: 1px solid #555;
-}
 /* end of max media */
 /* } */
 /* @media screen and (min-width: 412px) {
